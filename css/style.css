@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap');
+@import url(./reset.css)
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 112.5px 16.7px;
+    align-items: center;
+}
+
+a{
+   text-decoration: none;
+}
+header.header a{
+    padding: 4px;
+    color: black;
+}
+ 
+
+
+.left-side h1 span{
+    color: #FF8A56;
+}
+
+.left-side p{
+    color: #666666;
+
+}
+.teqdimat{
+    display: flex;
+justify-content: space-between;
+padding-left: 113px;
+padding-right: 112.5px;
+}
+
+.teqdimat button{
+width: 151px;
+height: 58px;
+    background-color: #222;
+    color: #fff;
+   
+}
+
+.teqdimat h1 {
+  
+font-size: 72px;
+font-weight: 700;
+}
+
+.teqdimat p{
+    margin-top: 34px;
+    margin-bottom: 24px;
+    
+}
+.teqdimat a{
+    padding-left: 20px;
+}
+
+.right-side img{
+    width: 100%;
+}
+.fa-bars{
+    display: none;
+    /* cursor: pointer; */
+}
+
+@media(max-width:768px){
+    header.header{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+.nav-links{
+    /* display: none; */
+    font-size: 24px;
+}
+
+
+@media(max-width:576px){
+    header.header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-width:1180){
+    .teqdimat{
+        padding-left: 60px;
+        padding-right: 60px;
+
+    }
+
+}
+@media(max-width:1080){
+    .teqdimat{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media(max-width:992){
+    .teqdimat h1{
+        font-size:42px;
+    }
+}
+@media(max-width:768){
+    .teqdimat{
+        flex-direction: column;
+    }
+}
